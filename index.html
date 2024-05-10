@@ -7,6 +7,41 @@
 </head>
 <body>
 
+<style>     
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #0f0f0f;
+    color: #66ff66;
+    margin: 0;
+    padding: 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #66ff66;
+    text-align: left;
+}
+th {
+    background-color: #0f0f0f;
+}
+tr:nth-child(even) {
+    background-color: #1a1a1a;
+}
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+    th, td {
+        display: block;
+        width: 100%;
+    }
+}
+</style>
+
 <table border="1">
 <tr>
 <th>Email</th>
